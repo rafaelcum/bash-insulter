@@ -1,10 +1,10 @@
-# bash-insulter
-Randomly insults the user when typing wrong command.
+# Bash Insulter
+Aleatóriamente ser insultado pelo próprio terminal apenas por digital um comando errado.
 
-Change insults as needed :)
+Ex:
 
 ```bash
-noob@bender:~ $ sl
+goku@terminal:~ $ sl
 
   Y u no speak computer???
 
