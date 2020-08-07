@@ -1,61 +1,61 @@
 # Bash Insulter
-Aleatóriamente ser insultado pelo próprio terminal apenas por digital um comando errado.
+Aleatoriamente ser insultado pelo próprio terminal apenas por digital um comando errado.
 
 Ex:
 
 ```bash
-goku@terminal:~ $ sl
+goku@PC:~ $ sl
 
-  Y u no speak computer???
+  Vocẽ fala computador???
 
 -bash: sl: command not found
-noob@bender:~ $ gti status
+goku@PC:~ $ gti status
 
-  This is why nobody likes you.
+  Isso é o motivo porque ninguém gosta de você.
 
 -bash: gti: command not found
-noob@bender:~ $ sp aux
+gouk@PC:~ $ sp aux
 
-  Go outside.
+  Acho melhor dar um tempo do computador.
 
 -bash: sp: command not found
 ```
 
-# Compatibility
-* Bash v4 and newer
+# Compatibilidade 
+* Bash v4 e mais novo
 * Zsh
 
-# Installation
+# Instalação
 
-    # Method 1 - know what you are doing
+    # Método 1 - Eu sei oque estou fazendo.
     git clone https://github.com/hkbakke/bash-insulter.git bash-insulter
     sudo cp bash-insulter/src/bash.command-not-found /etc/
+    
+    # Método 2 - Não importo, me insulte!
+    sudo wget -O /etc/bash.command-not-found https://raw.githubusercontent.com/rafaelbizzo/bash-insulter/master/src/bash.command-not-found
 
-    # Method 2 - I don't care, insult me!
-    sudo wget -O /etc/bash.command-not-found https://raw.githubusercontent.com/hkbakke/bash-insulter/master/src/bash.command-not-found
-
-Then source the file automatically for new logins by adding the following to `/etc/bash.bashrc` or any of the other locations where you can configure your shell automatically during login:
+Depois abra o arquivo `/etc/bash.bashrc` ou em qualquer outro local que você pode configuras seu shell automaticamente durante o login e adicione este script:
 ```
 if [ -f /etc/bash.command-not-found ]; then
     . /etc/bash.command-not-found
 fi
 ```
-Login again and type some invalid commands for the effects to be visible.
+De um `source /etc/bash.command-not-found` ou encerre a sessão e veja se funcionou.
 
-Note: You will have to add the script to `.zshrc` if you are using `zsh`
+Note que se você utiliza `zsh` edite o arquivo `.zshrc`                
 
-# Configuration
-bash-insulter can be customized, or even be made polite and nice, by populating `CMD_NOT_FOUND_MSGS` or `CMD_NOT_FOUND_MSGS_APPEND` environment variables. The values should be arrays. `CMD_NOT_FOUND_MSGS` replaces the default messages, while `CMD_NOT_FOUND_MSGS_APPEND` appends more messages to the existing ones.
+# Configuração
+Bash Insulte pode ser customizado até mesmo para se tornar bonito e politizado, basta adicionar caracteres a `CMD_NOT_FOUND_MSGS` ou `CMD_NOT_FOUND_MSGS_APPEND`. Os valores devem ser variados. Com `CMD_NOT_FOUND_MSGS` substitui as mensagens padrão, enquanto `CMD_NOT_FOUND_MSGS_APPEND` anexa mais mensagens às existentes.
 
-It is probably cleanest to source a file populating the environment variable as needed. In this example I create a file `/etc/bash.command-not-found-messages` with the following content:
+No exemplo eu criei um arquivo chamado `/etc/bash.command-not-found-messages` com as seguinte informações:
 
     CMD_NOT_FOUND_MSGS=(
         "You are so smart!"
         "You look pretty today!"
         "I don't know what to say"
     )
-    
-Then source this file before you source the script:
+
+Então de um `source` nesse arquivo antes de adicionar o seguinte script á `/etc/bash.bashrc`:
 ```
 if [ -f /etc/bash.command-not-found-messages ]; then
     . /etc/bash.command-not-found-messages
@@ -66,4 +66,4 @@ if [ -f /etc/bash.command-not-found ]; then
 fi
 ```
 
-Then logout and in again. The end result is that you will now use your messages instead of the default ones.
+Agora saia e volte. Os resultados finais são aqueles que você adicionou em relação aos originais.
