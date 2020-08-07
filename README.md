@@ -11,7 +11,7 @@ goku@PC:~ $ sl
 -bash: sl: command not found
 goku@PC:~ $ gti status
 
-  Isso é o motivo porque ninguém gosta de você.
+  Esse é o motivo porque ninguém gosta de você.
 
 -bash: gti: command not found
 gouk@PC:~ $ sp aux
@@ -22,13 +22,13 @@ gouk@PC:~ $ sp aux
 ```
 
 # Compatibilidade 
-* Bash v4 e mais novo
+* Bash v4 e versões mais novas.
 * Zsh
 
 # Instalação
 
     # Método 1 - Eu sei oque estou fazendo.
-    git clone https://github.com/hkbakke/bash-insulter.git bash-insulter
+    git clone https://github.com/rafaelbizzo/bash-insulter.git bash-insulter
     sudo cp bash-insulter/src/bash.command-not-found /etc/
     
     # Método 2 - Não importo, me insulte!
@@ -67,3 +67,5 @@ fi
 ```
 
 Agora saia e volte. Os resultados finais são aqueles que você adicionou em relação aos originais.
+
+This repository is based on [hkbakke's](https://github.com/hkbakke) [bash-insulter](https://github.com/hkbakke), just created to translate from english to portuguese (Brazil)
