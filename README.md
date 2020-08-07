@@ -16,7 +16,7 @@ goku@PC:~ $ gti status
 -bash: gti: command not found
 gouk@PC:~ $ sp aux
 
-  Acho melhor dar um tempo do computador.
+  Acho melhor você dar um tempo.
 
 -bash: sp: command not found
 ```
