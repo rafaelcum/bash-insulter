@@ -1,4 +1,7 @@
+**PS: Não utilizar o Bash Insulter em casos de Depressão ou tendências a suicídio.**
+
 # Bash Insulter
+
 Aleatoriamente ser insultado pelo próprio terminal apenas por digital um comando errado.
 
 Ex:
