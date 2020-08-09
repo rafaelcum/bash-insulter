@@ -2,7 +2,7 @@
 
 # Bash Insulter
 
-Aleatoriamente ser insultado pelo próprio terminal apenas por digital um comando errado.
+Aleatoriamente ser insultado pelo próprio terminal apenas por digitar um comando errado.
 
 Ex:
 
