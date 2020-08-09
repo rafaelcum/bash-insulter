@@ -4,7 +4,7 @@ print_message () {
     local message
 
     messages=(
-        "Boooo! Se assustou?"
+        "Boooo! Te assustei?"
         "Você não sabe nada mesmo?"
         "É só ler a porcaria do manual"
         "kk, muito ruin."
@@ -53,7 +53,7 @@ print_message () {
         "Caiu do sofá quando criança, só pode."
         "Esqueça, tente focar em outra coisa."
         "Eu realmente não sei oq te deixa tão burro, mas parece que tá funcionando."
-        "Você não é tal mal quanto as pessoas falam, você é, pior."
+        "Você não é tão mal quanto as pessoas falam, você é, péssimo."
         "Dois errados não fazem um certo, tome como exemplo seus pais."
         "Você deveria ter nascido em uma estrada, porque lá é onde os maiores acidentes acontecem."
         "Se burrice fosse felicidade, você com certeza seria otimista."
