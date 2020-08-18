@@ -30,14 +30,14 @@ gouk@PC:~ $ sp aux
 
 # Instalação
 
-    # Método 1 - Eu sei oque estou fazendo.
-    git clone https://github.com/rafaelbizzo/bash-insulter.git bash-insulter
-    sudo cp bash-insulter/src/bash.command-not-found /etc/
+    # Método 1 - Não importo, me insulte! 
+    sudo wget https://github.com/RafaelBizzo/bash-insulter/blob/master/install.sh | chmod +x install.sh | sudo install.sh
     
-    # Método 2 - Não importo, me insulte!
-    sudo wget -O /etc/bash.command-not-found https://raw.githubusercontent.com/rafaelbizzo/bash-insulter/master/src/bash.command-not-found
+    # Método 2 - Eu sei oque estou fazendo.
+    git clone https://github.com/RafaelBizzo/bash-insulter.git
+    sudo cp bash-insulter/src/bash-command-not-found /etc 
 
-Depois abra o arquivo `/etc/bash.bashrc` ou em qualquer outro local que você pode configuras seu shell automaticamente durante o login e adicione este script:
+Caso tenha escolhido o método 2, abra o arquivo `/etc/bash.bashrc` ou em qualquer outro local que você pode configuras seu shell automaticamente durante o login e adicione este script:
 ```
 if [ -f /etc/bash.command-not-found ]; then
     . /etc/bash.command-not-found
