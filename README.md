@@ -68,3 +68,5 @@ fi
 Agora saia e volte. Os resultados finais são aqueles que você adicionou em relação aos originais.
 
 This repository is based on [hkbakke's](https://github.com/hkbakke) [bash-insulter](https://github.com/hkbakke), just created to translate from english to portuguese (Brazil)
+
+Repositório original: https://github.com/hkbakke/bash-insulter
