@@ -31,7 +31,7 @@ gouk@PC:~ $ sp aux
 # Instalação
 
     # Método 1 - Não importo, me insulte! 
-    sudo sh install.sh | chmod +x install.sh | sudo wget https://github.com/RafaelBizzo/bash-insulter/blob/master/install.sh
+    sudo wget https://github.com/RafaelBizzo/bash-insulter/blob/master/install.sh && chmod +x install.sh && sudo install.sh
     
     # Método 2 - Eu sei oque estou fazendo.
     git clone https://github.com/RafaelBizzo/bash-insulter.git
