@@ -1,8 +1,8 @@
-**PS: Não utilizar o Bash Insulter em casos de Depressão ou tendências a suicídio.**
+**PS: Não utilizar o Bash Insulter em casos de depressão ou tendências a suicídio.**
 
 # Bash Insulter
 
-Aleatoriamente ser insultado pelo próprio terminal apenas por digitar um comando errado.
+Ser insultado pelo próprio terminal apenas por digitar um comando errado.
 
 Ex:
 
@@ -33,7 +33,7 @@ gouk@PC:~ $ sp aux
     git clone https://github.com/rafaelbizzo/bash-insulter.git bash-insulter
     sudo cp bash-insulter/src/bash.command-not-found /etc/
 
-Agora abra o arquivo `/etc/bash.bashrc` ou em qualquer outro local que você pode configuras seu shell automaticamente durante o login e adicione este script:
+Agora abra o arquivo `/etc/bash.bashrc` ou qualquer outro arquivo que você pode configurar seu shell automaticamente durante o login e adicione este script:
 ```
 if [ -f /etc/bash.command-not-found ]; then
     . /etc/bash.command-not-found
@@ -44,7 +44,7 @@ De um `source /etc/bash.command-not-found` ou encerre a sessão e veja se funcio
 Note que se você utiliza `zsh` edite o arquivo `.zshrc`                
 
 # Configuração
-Bash Insulte pode ser customizado até mesmo para se tornar bonito e politizado, basta adicionar caracteres a `CMD_NOT_FOUND_MSGS` ou `CMD_NOT_FOUND_MSGS_APPEND`. Os valores devem ser variados. Com `CMD_NOT_FOUND_MSGS` substitui as mensagens padrão, enquanto `CMD_NOT_FOUND_MSGS_APPEND` anexa mais mensagens às existentes.
+Bash Insulte pode ser customizado até mesmo para se tornar bonito e politizado, basta adicionar caracteres a `CMD_NOT_FOUND_MSGS` ou `CMD_NOT_FOUND_MSGS_APPEND`. Os valores devem ser variados. Com `CMD_NOT_FOUND_MSGS` substitui as mensagens padrões, enquanto `CMD_NOT_FOUND_MSGS_APPEND` anexa mais mensagens às existentes.
 
 No exemplo eu criei um arquivo chamado `/etc/bash.command-not-found-messages` com as seguinte informações:
 
