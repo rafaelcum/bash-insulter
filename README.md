@@ -41,7 +41,9 @@ fi
 ```
 De um `source /etc/bash.command-not-found` ou encerre a sessão e veja se funcionou.
 
-Note que se você utiliza `zsh` edite o arquivo `.zshrc`                
+Note que se você utiliza `zsh` edite o arquivo `.zshrc`
+
+Após a instalação você pode excluir a pasta que será criada chamada `bash-insulter`
 
 # Configuração
 Bash Insulte pode ser customizado até mesmo para se tornar bonito e politizado, basta adicionar caracteres a `CMD_NOT_FOUND_MSGS` ou `CMD_NOT_FOUND_MSGS_APPEND`. Os valores devem ser variados. Com `CMD_NOT_FOUND_MSGS` substitui as mensagens padrões, enquanto `CMD_NOT_FOUND_MSGS_APPEND` anexa mais mensagens às existentes.
