@@ -1,4 +1,4 @@
-**PS: Não utilizar o Bash Insulter em casos de depressão ou tendências a suicídio.**
+**PS: Não utilizar o Bash Insulter em casos depressivos**
 
 # Bash Insulter
 
