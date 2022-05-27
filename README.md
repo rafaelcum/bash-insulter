@@ -1,5 +1,3 @@
-**PS: Não utilizar o Bash Insulter em casos depressivos**
-
 # Bash Insulter
 
 Ser insultado pelo próprio terminal apenas por digitar um comando errado.
